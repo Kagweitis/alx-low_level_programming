@@ -5,3 +5,4 @@
 4-puts.c prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 5-printf.c uses printf for output
 6-size.c prints size of data types in c
+100-intel creates assembly code of a c file and saves it in an output file
