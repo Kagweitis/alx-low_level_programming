@@ -3,3 +3,4 @@
 2-print_alphabet_x10.c prints 10 times the alphabet, in lowercase, followed by a new line.
 3-islower.c gets lower case letter
 4-isalpha.c checks if its alphabet
+5-sign. checks sign 
