@@ -8,3 +8,4 @@
 7-print_last_digit.c prints last digit of a number
 8-24_hours.c Bauer
 8-24_hours.c bauer
+9-times_table.c creates times table
