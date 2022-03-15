@@ -4,3 +4,4 @@
 3-islower.c gets lower case letter
 4-isalpha.c checks if its alphabet
 5-sign. checks sign 
+6-abs.c prints absolute unit 
