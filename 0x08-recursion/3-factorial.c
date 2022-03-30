@@ -1,18 +1,21 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - a function that returns the length of a string.
- * @s: The string.
- * Return: length
+ * factorial - compute the factorial of a given number.
+ * @n: the number
+ * Return: factorial number
  */
-int _strlen_recursion(char *s)
+int factorial(int n)
 {
-	int length = 0;
+	int fac = 1;
 
-	if (*s == 0)
-		return (0);
+	if (n < 0)
+		return (-1);
 
-	length = _strlen_recursion(s + 1);
+	else if (!n)
+		return (1);
 
-	return (length + 1);
+	fac = factorial(n - 1);
+
+	return (fac * n);
 }
