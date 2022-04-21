@@ -12,7 +12,7 @@ int _strlen(const char *s)
 	int i;
 
 	for (i = 0; s[i]; i++)
-						;
+		;
 	return (i);
 }
 /**
@@ -31,7 +31,7 @@ void *_strdup(const char *src)
 		return (NULL);
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
-		dest[i] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
 /**
